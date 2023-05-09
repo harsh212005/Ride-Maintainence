@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, td, th {
+  border: 0px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <form action="/review" method = "post">
+            <section class="name">
+                <label for="username">Name : </label><br>
+                <input class="input1" type="text" id="myname" placeholder="enter your name" name="username">
+            </section>
+            <section class="name">
+                <label for="rating">Rating : </label><br>
+                <input class="input1" type="number" id="myph" placeholder="give ratting" name = "rating"><br>
+            </section>
+           
+            <section class="name">
+                <label for="message">Message : </label><br>
+                <input class="input1" type="text" id="myaddress" placeholder="please give review" name = "Message"><br>
+            </section>
+            
+            <section>
+                <button class="button" type="submit">Submit</button>
+            </section>
+        </form>
+    </div>
+     
+    <h1 style="color: green;">Reviews</h1>
+
+    <div style="background-color: red;">
+    
+    <table  > 
+        <tr>
+            <th>Name</th>
+            <th>Rating</th>
+            <th>Message</th>
+            
+            
+        </tr>
+
+        <% for( var i=0;i<rating.length; i++) { %>
+            <tr style="margin-left: 100px;">
+                <td><%= rating[i].name %></td>
+                <td><%= rating[i].rating %></td>
+                <td><%= rating[i].message %></td>
+               
+               
+            </tr>
+        <% } %>
+    </table>
+    </div>
+   
+</body>
+</html>

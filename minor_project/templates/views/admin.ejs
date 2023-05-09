@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, td, th {
+  border: 0px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+    </style>
+</head>
+
+<body>
+    <h1 style="color: green;">This is my dashboard</h1>
+
+    <div style="background-color: red;">
+    <h2>Users Details</h2>
+    <table width = "50%"> 
+        <tr>
+            <th>Firstname</th>
+            <th>Last name</th>
+            <th>Email</th>
+            <th>Mobile Number</th>
+            <th>is_admin</th>
+            
+        </tr>
+
+        <% for( var i=0;i<user.length; i++) { %>
+            <tr>
+                <td><%= user[i].firstname %></td>
+                <td><%= user[i].lastname %></td>
+                <td><%= user[i].email %></td>
+                <td><%= user[i].phone %></td>
+                <td><%= user[i].is_admin %></td>
+            </tr>
+        <% } %>
+    </table>
+    </div>
+    <div  style="background-color:aqua" >
+        <h2>Service Booking Detail</h2>
+        <table width = "50%"> 
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Mobile number</th>
+                <th>Service name</th>
+                <th>Address</th>
+                <th>Date and time</th>
+                
+            </tr>
+    
+            <% for( var i=0;i<servece.length; i++) { %>
+                <tr>
+                    <td><%= servece[i].name %></td>
+                    <td><%= servece[i].email %></td>
+                    <td><%= servece[i].phone %></td>
+                    <td><%= servece[i].servicename %></td>
+                    <td><%= servece[i].address %></td>
+                    <td><%= servece[i].createdAt %></td>
+                </tr>
+            <% } %>
+        </table>
+    </div>
+</body>
+</html>

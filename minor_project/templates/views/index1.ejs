@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- {{!-- {{>header}} --}} -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- {{!-- <link rel="stylesheet" href="node/index.js"> --}} -->
+</head>
+<body>
+    <section class="full_body">
+        <!-- {{!-- {{>navbar}} --}} -->
+        <header>
+            <nav>
+                <section class="navbar">
+                    <ul id="menu">
+                        <li class="logo"><img class="logoimage" src="images/logo.png" alt="logo_image"></li>
+                        <li class="home"><a style="font-size: 22.4rem;" href="#">HOME</a></li>
+                        <li class="category"><a style="font-size: 22.4rem;" href="#category_text">CATEGORY</a></li>
+                        <li class="product"><a style="font-size: 22.4rem;" href="#product_">PRODUCT</a></li>
+                        <li class="services"><a style="font-size: 22.4rem;" href="#services_text">SERVICES</a></li>
+                        <li class="dealers"><a style="font-size: 22.4rem;" href="#services_text">DEALERS</a></li>
+                        <li><span style="font-size: 22.4rem" ><%= name.firstname %></span></li>
+                        <section class="dropdown">
+                            <li class="mnu"><button style="background-color: slategray;" class="dropbtn"><a href="#"><span class="material-symbols-outlined"
+                                            style="font-size: 22.4rem;">menu</span></a></button>
+                                <section class="dropdown-content">
+                                    <a href="#gallery_">GALLERY</a>
+                                    <a href="#videos_">VIDEOS</a>
+                                    <a href="/review">REVIEWS</a>
+                                    <a href="#about_">ABOUT US</a>
+                                    <a href="#contactus_">CONTACT US</a>
+                                    <span>name</span>
+                                </section>
+                            </li>
+                        </section>
+                        <section class="dropdown">
+                            <li class="account"><button style="background-color: slategray;" class="dropbtn"><a href="#"><span style="font-size: 22.4rem;"
+                                            class="material-symbols-outlined">person</span></a></button>
+                                <section class="dropdown-content">
+                                    <a href="/login">LOG IN</a>
+                                    <a href="/register">SIGN IN</a>
+                                    <a href="#"><span style="font-size: 22.4rem;"
+                                            class="material-symbols-outlined">shopping_cart</span></a>
+                                    <a href="/logout">LOG OUT</a>
+                                </section>
+                            </li>
+                        </section>
+                        <li class="logout"><a href="#"><span style="font-size: 22.4rem;"
+                                    class="material-symbols-outlined">logout</span></a></li>
+                    </ul>
+                </section>
+            </nav>
+        </header>
+        <main>
+            <article class="article1">
+                <section class="carouse1" data-flickity='{"wrapAround":true,"autoPlay":true}'>
+                    <section class="carouse1-cell image1">
+                        
+                    </section>
+                    <section class="carouse1-cell image2">
+                    </section>
+                    <section class="carouse1-cell image3">
+                        
+                    </section>
+                    </section>
+                    
+            </article>
+            <article class="article2">
+                <section id="category_text">CATEGORY</section>
+                <div class="carouse1" data-flickity='{"wrapAround":true,"autoPlay":true}'>
+                    <div style="margin: 10rem;" class="carouse1-cell container">
+                        <img class="image" src="images/dirt bike.png" alt="image1">
+                        <div class="middle">
+                            <div class="text">Dirt Bike</div>
+                        </div>
+                    </div>
+                    <div style="margin: 10rem;" class="carouse1-cell container">
+                        <img class="image" src="images/adventure bike.png" alt="image2">
+                        <div class="middle">
+                            <div class="text">Adventure Bike</div>
+                        </div>
+                    </div>
+                    <div style="margin: 10rem;" class="carouse1-cell container">
+                        <img class="image" src="images/cafe racer bike.png" alt="image3">
+                        <div class="middle">
+                            <div class="text">Cafe Racer Bike</div>
+                        </div>
+                    </div>
+                    <div style="margin: 10rem;" class="carouse1-cell container">
+                        <img class="image" src="images/cruiser bike .png" alt="image3">
+                        <div class="middle">
+                            <div class="text">Cruiser Bike</div>
+                        </div>
+                    </div>
+                    <div style="margin: 10rem;" class="carouse1-cell container">
+                        <img class="image" src="images/naked bike .png" alt="image3">
+                        <div class="middle">
+                            <div class="text">Naked Bike</div>
+                        </div>
+                    </div>
+                </div>
+            </article> 
+            <article class="article3">
+                <section id="category_text">PRODUCT</section>
+                <div class="carouse1" data-flickity='{"wrapAround":true,"autoPlay":true}'>
+                    <div class="carouse1-cell container">
+                        <img class="image_tyre" src="images/jk tyres.png" alt="image1">
+                        <div class="middle">
+                            <div class="text">JK Tyre</div>
+                        </div>
+                    </div>
+                    <div class="carouse1-cell container">
+                        <img class="image_tyre" src="images/tvs tyres.png" alt="image2">
+                        <div class="middle">
+                            <div class="text">TVS Tyre</div>
+                        </div>
+                    </div>
+                    <div class="carouse1-cell container">
+                        <img class="image_tyre" src="images/cent tyres.png" alt="image3">
+                        <div class="middle">
+                            <div class="text">Cent Tyre</div>
+                        </div>
+                    </div>
+                    <div class="carouse1-cell container">
+                        <img class="image_tyre" src="images/ralco tyres.png" alt="image3">
+                        <div class="middle">
+                            <div class="text">Ralco Tyre</div>
+                        </div>
+                    </div>
+                    <div class="carouse1-cell container">
+                        <img class="image_tyre" src="images/apollo tyre.png" alt="image3">
+                        <div class="middle">
+                            <div class="text">Apollo Tyre</div>
+                        </div>
+                    </div>
+                    <div class="carouse1-cell container">
+                        <img class="image_tyre" src="images/pirelli tyres.png" alt="image3">
+                        
+                        <div class="middle">
+                            <div class="text">Pirelli Tyre</div>
+                        </div>
+                    </div>
+                </div>
+            </article> 
+        <article>
+            <p class="services_" id="services_text">SERVICES</p>
+
+            
+                <!-- <p class="services_">services</p> -->
+                <div class="parent">
+                    <div class="child">
+                        <div class="service_img">
+                            <img class="service_gallery" src="images/nitrogen.png" alt="">
+                        </div>
+                        
+                        <div class="service_title">
+                            <h2 class="h2_text1">Nitrogen Air</h2>
+                        
+                        </div >
+                        <div class="service_title">
+                            <h2 class="h2_text1" style="color: green;">Price : 100 rs</h2>
+                        </div>
+                        <div class="service_des">
+                            <p class="para_text1">We are also engaged in offering a quality assured nitrogen air in your
+                                bike tyres</p>
+                        </div> 
+                        <div class="call_To_action">
+                            <!-- <button class="services_submit" type="submit"> -->
+                                <button class="services_submit" type="submit"><a class="enquire_link" href="/serviceform">Enqire Now</a></button>
+                        </div>
+                                
+                    </div>
+                    
+                    <div class="child">
+                        <div class="service_img">
+                            <img class="service_gallery" src="images/balancing.png" alt="">
+                        </div>
+                        
+                        <div class="service_title">
+                            <h2 class="h2_text1">Wheel Balancing</h2>
+                        
+                        </div>
+                        <div class="service_title">
+                            <h2 class="h2_text1" style="color: green;">Price : 100 rs</h2>
+                        </div>
+                        <div class="service_des">
+                            <p class="para_text1">Leveraging on our affluent industry expertise, we provide wheel
+                                balancing service</p>
+                        </div> 
+                        <div class="call_To_action">
+                            <button class="services_submit" type="submit"><a class="enquire_link" href="/serviceform">Enqire Now</a></button>
+                        </div>
+                                
+                    </div>
+                    <div class="child">
+                        <div class="service_img">
+                            <img class="service_gallery" src="images/changer.png" alt="">
+                        </div>
+                        
+                        <div class="service_title">
+                            <h2 class="h2_text1">Tyre Change</h2>
+                        
+                        </div>
+                        <div class="service_title">
+                            <h2 class="h2_text1" style="color: green;">Price : 100 rs</h2>
+                        </div>
+                        <div class="service_des">
+                            <p class="para_text1">We are highly engaged in offering a premium quality range of tyre
+                                changer service</p>
+                        </div> 
+                        <div class="call_To_action">
+                            <button class="services_submit" type="submit"><a class="enquire_link" href="/serviceform">Enqire Now</a></button>
+                        </div>
+                                
+                    </div>
+                    <div class="child">
+                        <div class="service_img">
+                            <img class="service_gallery" src="images/alignment.png" alt="">
+                        </div>
+                        
+                        <div class="service_title">
+                            <h2 class="h2_text1">Wheel Alignment</h2>
+                        
+                        </div>
+                        <div class="service_title">
+                            <h2 class="h2_text1" style="color: green;">Price : 100 rs</h2>
+                        </div>
+                        <div class="service_des">
+                            <p class="para_text1">We perform the most precise 3D wheel alignment on all tyres of tyres</p>
+                        </div> 
+                        <div class="call_To_action">
+                            <button class="services_submit" type="submit"><a class="enquire_link" href="/serviceform">Enqire Now</a></button>
+                        </div>
+                                
+                    </div>
+                </div>
+            
+        </article>
+        <article>
+            <p class="services_" id="services_text ">DEALERS</p>
+
+            
+                <!-- <p class="services_">services</p> -->
+                <div class="parent">
+                    <div class="child">
+                        <div class="service_img">
+                            <img class="service_gallery" src="images/dealer3.jpg" height="250px" width="300px" alt="">
+                        </div>
+                        
+                        <div class="service_title">
+                            <h2 class="dealer_text">Bihari tyres</h2>
+                        
+                        </div>
+                        <div class="service_des">
+                            <p class="para_text1">Dealer Location</p>
+                        </div> 
+                        <div class="loc_dealer">
+
+                            <a href="https://goo.gl/maps/euUW4tocm7HicekG8">
+                                <span class="material-symbols-outlined">
+                                    pin_drop
+                                    </span>
+                            </a>
+                        </div>
+                        
+                                
+                    </div>
+                    
+                    <div class="child">
+                        <div class="service_img">
+                            <img class="service_gallery" src="images/dealer2.jpg" height="250px" width="300px" alt="">
+                        </div>
+                        
+                        <div class="service_title">
+                            <h2 class="dealer_text">Mohan Tyres</h2>
+                        
+                        </div>
+                        <div class="service_des">
+                            <p class="para_text1">Dealer Locaion</p>
+                            <div class="loc_dealer">
+
+                            <a href="https://goo.gl/maps/euUW4tocm7HicekG8">
+                                <span class="material-symbols-outlined">
+                                    pin_drop
+                                    </span>
+                            </a>
+                            </div>
+                        </div> 
+                        
+                                
+                    </div>
+                    <div class="child">
+                        <div class="service_img">
+                            <img class="service_gallery" src="images/dealer1.jpg" height="250px" width="300px" alt="">
+                        </div>
+                        
+                        <div class="service_title">
+                            <h2 class="dealer_text"> Devkrapa Tyres</h2>
+                        
+                        </div>
+                        <div class="service_des">
+                            
+                            <p class="para_text1">Dealer Location</p>
+                        </div> 
+                        <div class="loc_dealer">
+
+                            <a href="https://goo.gl/maps/euUW4tocm7HicekG8">
+                                <span class="material-symbols-outlined">
+                                    pin_drop
+                                    </span>
+                            </a>
+                        </div>
+                       
+                                
+                    </div>
+                  
+                                
+                
+                </div>
+            
+        </article>
+        <article class="article5">
+            <p id="gallery_" class="services_">GALLERY</p>
+
+            <div class="parent">
+                <div class="child">
+                    <img class="image_gallery" src="images/gallery1.png" alt="">
+                </div>
+                <div class="child">
+                    <img class="image_gallery" src="images/gallery2.png" alt="">
+                </div>
+                <div class="child">
+                    <img class="image_gallery" src="images/galeery3.png" alt="">
+                </div>
+                <div class="child">
+                    <img class="image_gallery" src="images/gallery4.png" alt="">
+                </div>
+                <div class="child">
+                    <img class="image_gallery" src="images/gallery5.png" alt="">
+                </div>
+                <div class="child">
+                    <img class="image_gallery" src="images/gallery1.png" alt="">
+                </div>
+                <div class="child">
+                    <img class="image_gallery" src="images/gallery7.png" alt="">
+                </div>
+                <div class="child">
+                    <img class="image_gallery" src="images/gallery8.png" alt="">
+                </div>
+            </div>
+            <!-- <section class="main5">
+                <ul>
+                    <li>
+                        <section class="main51"></section>
+                    </li>
+                    <li>
+                        <section class="main52"></section>
+                    </li>
+                    <li>
+                        <section class="main53"></section>
+                    </li>
+                    <li>
+                        <section class="main54"></section>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <section class="main55"></section>
+                    </li>
+                    <li>
+                        <section class="main56"></section>
+                    </li>
+                    <li>
+                        <section class="main57"></section>
+                    </li>
+                    <li>
+                        <section class="main58"></section>
+                    </li>
+                </ul>
+            </section> -->
+        </article>
+
+            <!-- <article class="article4">
+                <section id="services_text">SERVICES</section>
+                <section class="main4">
+                    <ul>
+                        <li>
+                            <section class="main41"></section>
+                            <h2 class="h2_text1">Nitrogen Air</h2>
+                            <p class="para_text1">We are also engaged in offering a quality assured nitrogen air in your
+                                bike tyres</p>
+                            <center>
+                                <button class="services_submit" type="submit"><a class="enquire_link" href="main_form.html">Enqire Now</a></button>
+                            </center>
+                        </li>
+                        <li>
+                            <section class="main42"></section>
+                            <h2 class="h2_text2">Wheel Balancing</h2>
+                            <p class="para_text2">Leveraging on our affluent industry expertise, we provide wheel
+                                balancing service</p>
+                            <center>
+                                <button class="services_submit1" type="submit"><a class="enquire_link" href="main_form.html">Enqire Now</a></button>
+                            </center>
+                        </li>
+                        <li>
+                            <section class="main43"></section>
+                            <h2 class="h2_text2">Wheel Alignment</h2>
+                            <p class="para_text2">We perform the most precise 3D wheel alignment on all tyres of tyres
+                            </p>
+                            <center>
+                                <button class="services_submit1" type="submit"><a class="enquire_link" href="main_form.html">Enqire Now</a></button>
+                            </center>
+                        </li>
+
+                        <li>
+                            <section class="main44"></section>
+                            <h2 class="h2_text2">Tyre Change</h2>
+                            <p class="para_text2">We are highly engaged in offering a premium quality range of tyre
+                                changer service</p>
+                            <center>
+                                <button class="services_submit1" type="submit"><a class="enquire_link" href="main_form.html">Enqire Now</a></button>
+                            </center>
+                        </li>
+                    </ul>
+                </section>
+            </article> -->
+            <article class="article6">
+                <p id="videos_" class="services_">VIDEOS</p>
+                <div class="parent">
+                    <div class="child">
+                        <section class="main61"><iframe 
+                            src="https://www.youtube.com/embed/0zLpeqss-2Q" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></section>
+                    </div>
+                    <div class="child">
+                        <section class="main62"><iframe
+                            src="https://www.youtube.com/embed/5OspgaWD7Tk" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></section>
+                    </div>
+                    <div class="child">
+                        <section class="main63"><iframe 
+                            src="https://www.youtube.com/embed/0JsXIg5TjzA" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></section>
+                    </div>
+                    <div class="child">
+                        <section class="main64"><iframe 
+                            src="https://www.youtube.com/embed/3W30G6X_2nM" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></section>
+                    </div>
+                </div>
+                <!-- <section class="main6">
+                    <ul>
+                        <li>
+                            <section class="main61"><iframe width="600" height="350"
+                                    src="https://www.youtube.com/embed/0zLpeqss-2Q" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe></section>
+                        </li>
+                        <li>
+                            <section class="main62"><iframe width="600" height="350"
+                                    src="https://www.youtube.com/embed/5OspgaWD7Tk" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe></section>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <section class="main63"><iframe width="600" height="350"
+                                    src="https://www.youtube.com/embed/0JsXIg5TjzA" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe></section>
+                        </li>
+                        <li>
+                            <section class="main64"><iframe width="600" height="350"
+                                    src="https://www.youtube.com/embed/3W30G6X_2nM" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe></section>
+                        </li>
+                    </ul>
+                </section> -->
+            </article>
+            <article class="article7">
+                <p id="aboutus_" class="services_">ABOUT US</p>
+                <div class="parent">
+                    <div class="child">
+                        <img src="images/vector1.png" alt="">
+                    </div>
+                    <div class="child" >
+                        <p class="main72">We Ride Maintenance located in Guna, Madhya Pradesh are home to premium tyre brands
+                            for passenger's different variety of two wheelers. We have earned a reputation in
+                            the market for providing fair pricing , best quality product and excellent services
+                            to our customers. More then just being a place where a customer can buy a tyre , we
+                            aim to all our customers an international level of service at domestic prices....
+                        </p>
+                    </div>
+                    <div class="child">
+                        <img src="images/mechanical.png" alt="">
+                    </div>
+                </div>
+                <!-- <section class="main7">
+                    <ul>
+                        <li>
+                            <section class="main71"></section>
+                        </li>
+                        <li>
+                            <section class="main72">
+                                <p>We Ride Maintenance located in Guna, Madhya Pradesh are home to premium tyre brands
+                                    for passenger's different variety of two wheelers. We have earned a reputation in
+                                    the market for providing fair pricing , best quality product and excellent services
+                                    to our customers. More then just being a place where a customer can buy a tyre , we
+                                    aim to all our customers an international level of service at domestic prices....
+                                </p>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="main73"></section>
+                        </li>
+                    </ul>
+                </section> -->
+            </article>
+            <article class="article8">
+                <p id="contactus_" class="services_">CONTACT US</p>
+                <div class="parent">
+                    <div class="child">
+                        <section class="maps">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.4593724117894!2d77.15869901491823!3d24.43484268425643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397aff3abbbad69f%3A0x9af2aa865b395399!2sJaypee%20University%20Of%20Engineering%20And%20Technology%2C%20Guna!5e0!3m2!1sen!2sin!4v1663758663164!5m2!1sen!2sin"
+                                width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </section>
+                    </div>
+                    <div class="child">
+                        <section class="contactus_content">
+                            
+                                <section class="location"><a href="https://www.google.com/maps/place/Guna,+Madhya+Pradesh/@24.6465923,77.2421141,12z/data=!3m1!4b1!4m5!3m4!1s0x397a5b8ad767405b:0x4d05b0a1e1507d8d!8m2!3d24.6323648!4d77.3001762"><span style="font-size: 3rem; color: rgb(197, 68, 21); margin-top: 20px;"  class="material-symbols-outlined">pin_drop</span></a></section>
+                                <section class="location_name" style="font-size: 32rem;">Our Office Address</section>
+                                <address style="opacity: 0.7; font-size: 20rem">Jaypee University Of Engineering And Technology,Guna</address>
+                                <section class="gmail"><a href="mailto: harshvaslas09752@gmail.com"><span style="font-size: 3rem; color: rgb(197, 68, 21); "  class="material-symbols-outlined">mail</span ></a></section>
+                                <section style="font-size: 32rem;">General Enquiries</section>
+                                <section style="opacity: 0.7; font-size: 20rem;">harshvaslas09752@gmail.com</section>
+                                <section class="phone"><a href="tel:7453898747"><span style="font-size: 3rem; color: rgb(197, 68, 21); margin-top: 20px;"  class="material-symbols-outlined">phone_in_talk</span></a></section>
+                                <section style="font-size: 32rem;">Call Us</section>
+                                <section style="opacity: 0.7; font-size: 20rem;">+91 - 7453898747</section>
+                                <section class="time"><span style="font-size: 3rem; color: rgb(197, 68, 21); margin-top: 20px;" class="material-symbols-outlined">schedule</span></section>
+                                <section style="font-size: 2rem;">Our Timing</section>
+                                <section style="opacity: 0.7; font-size: 20rem;">Mon-Sat : 9:00 Am - 8:00 Pm</section>
+                            
+                        </section>
+                    </div>
+                </div>
+
+                <!-- <section class="main8">
+                    <ul>
+                        <li>
+                            <section class="maps">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.4593724117894!2d77.15869901491823!3d24.43484268425643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397aff3abbbad69f%3A0x9af2aa865b395399!2sJaypee%20University%20Of%20Engineering%20And%20Technology%2C%20Guna!5e0!3m2!1sen!2sin!4v1663758663164!5m2!1sen!2sin"
+                                    width="600" height="530" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="contactus_content">
+                                <center>
+                                    <section class="location"><a href="https://www.google.com/maps/place/Guna,+Madhya+Pradesh/@24.6465923,77.2421141,12z/data=!3m1!4b1!4m5!3m4!1s0x397a5b8ad767405b:0x4d05b0a1e1507d8d!8m2!3d24.6323648!4d77.3001762"><span style="font-size: 3rem; color: rgb(197, 68, 21); margin-top: 20px;"  class="material-symbols-outlined">pin_drop</span></a></section>
+                                    <section class="location_name" style="font-size: 2rem;">Our Office Address</section>
+                                    <address style="opacity: 0.7;">Jaypee University Of Engineering And Technology,Guna</address>
+                                    <section class="gmail"><a href="mailto: harshvaslas09752@gmail.com"><span style="font-size: 3rem; color: rgb(197, 68, 21); margin-top: 20px;"  class="material-symbols-outlined">mail</span ></a></section>
+                                    <section style="font-size: 2rem;">General Enquiries</section>
+                                    <section style="opacity: 0.7;">harshvaslas09752@gmail.com</section>
+                                    <section class="phone"><a href="tel:7453898747"><span style="font-size: 3rem; color: rgb(197, 68, 21); margin-top: 20px;"  class="material-symbols-outlined">phone_in_talk</span></a></section>
+                                    <section style="font-size: 2rem;">Call Us</section>
+                                    <section style="opacity: 0.7;">+91 - 7453898747</section>
+                                    <section class="time"><span style="font-size: 3rem; color: rgb(197, 68, 21); margin-top: 20px;" class="material-symbols-outlined">schedule</span></section>
+                                    <section style="font-size: 2rem;">Our Timing</section>
+                                    <section style="opacity: 0.7;">Mon-Sat : 9:00 Am - 8:00 Pm</section>
+                                </center>
+                            </section>
+                        </li>
+                    </ul>
+                </section> -->
+            </article>
+           
+        </main>
+        <footer>
+            <section class="follow">
+                <ul>
+                    <li class="mail"><a href="mailto: harshvaslas09752@gmail.com"><span style="font-size:20.8rem" class="material-symbols-outlined">mail</span ></a></li>
+                    <li><a style="color: white; font-size: 20.8rem;" href="mailto: harshvaslas09752@gmail.com">harshvaslas09752@gmail.com</a></li>
+                    <li class="fb"><a id="facebook_icon" href="http://facebook.com/Harsh Vaslas"><i style="font-size:20.8rem" class="fa">&#xf082;</i></a></li>
+                    <li class="in"><a href="https://www.linkedin.com/in/harsh-vaslas-9162501b6/"><i style="font-size:20.8rem" class='fa fa-linkedin'></i></a></li>
+                    <li class="insta"><a id="insta_icon" href="http://instagram.com/harshvaslas"><i style="font-size:20.8rem" class="fa">&#xf16d;</i></a></li>
+                    <li class="twitter"><a href="https://twitter.com/i/flow/login"><i class="fa fa-twitter" style="font-size:20.8rem"></i></a></li>
+                    <li class="loc"><a href="https://www.google.com/maps/place/Guna,+Madhya+Pradesh/@24.6465923,77.2421141,12z/data=!3m1!4b1!4m5!3m4!1s0x397a5b8ad767405b:0x4d05b0a1e1507d8d!8m2!3d24.6323648!4d77.3001762"><span style="font-size: 20.8rem;" class="material-symbols-outlined">pin_drop</span></a></li>
+                    <li style="color: white; font-size: 20.8rem;">GUNA</li>
+                </ul>
+            </section>
+        </footer>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>

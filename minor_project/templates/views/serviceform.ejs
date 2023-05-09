@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    body{
+        background-color: snow;
+    }
+    .container{
+        width: 300px;
+        border: 1px solid wheat;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: rgb(249, 251, 252);
+        border-radius: 10px;
+        margin-left: 38rem;
+        margin-top: 5rem;
+    }
+    .name{
+        margin-left: 10px;
+        font-size: larger;
+        margin-bottom: 10px;
+    }
+    .input1{
+        padding: 5px;
+        border: 2px solid black;
+        width: 250px;
+        border-radius: 10px;
+    }
+    label{
+        margin-bottom: 3px;
+    }
+    .button{
+        background-color: rgb(209, 224, 219);
+        font-size: large;
+        font-weight: 300;
+        padding: 10px;
+        width: 100px;
+        border-radius: 20px;
+        margin-left: 90px;
+        margin-top: 5px;
+    }
+    .button:hover{
+        opacity: 0.7;
+    }
+</style>
+<body>
+    <section class="container">
+        <form action="/serviceform" method = "post">
+            <section class="name">
+                <label for="username">Name : </label><br>
+                <input class="input1" type="text" id="myname" placeholder="enter your name" name="username">
+            </section>
+            <section class="name">
+                <label for="mobile">Mobile : </label><br>
+                <input class="input1" type="number" id="myph" placeholder="enter your mobile number" name = "mobile"><br>
+            </section>
+            <section class="name">
+                <label for="email">Email-Id : </label><br>
+                <input class="input1" type="email" id="myemail" placeholder="enter your email-id" name="email"><br>
+            </section>
+            <section class="name">
+                <label for="address">Address : </label><br>
+                <input class="input1" type="text" id="myaddress" placeholder="enter your address" name = "address"><br>
+            </section>
+            <section class="name">
+                
+                <!-- <input type="checkbox" id="nitrogen_air" name="vehicle1" value="Nitrogen air">
+                <label for="vehicle1"> Nitrogen Air</label><br>
+                <input type="checkbox" id="wheel_alignment" name="vehicle2" value="wheel alignment">
+                <label for="vehicle2"> Wheel Alignment</label><br>
+                <input type="checkbox" id="wheel_balncing" name="vehicle3" value="wheel balancing">
+                <label for="vehicle3"> Wheel Balancing</label><br>
+                <input type="checkbox" id="tyre_change" name="vehicle3" value="tyre_changer">
+                <label for="vehicle3"> Tyre Change</label> -->
+                <label for="service">Servicename : </label><br>
+                <input class="input1" type="text" id="myaddress" placeholder="enter your service" name = "service"><br>
+                <br><br>
+            </section>
+            <section class="name">
+                <label for="Dealers">Choose a Dealer</label>
+                <select name="Dealers">
+                    <option value="Bihari Tyres">Bihari Tyres</option>
+                    <option value=">DEvkrapa Services">DEvkrapa Services</option>
+                    <option value="Mohan Tyres">Mohan Tyres</option>
+                </select>
+            </section>
+            <section>
+                <button class="button" type="submit">Submit</button>
+            </section>
+        </form>
+    </section>
+</body>
+
+</html>

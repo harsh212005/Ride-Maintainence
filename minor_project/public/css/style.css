@@ -1,0 +1,1005 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.full_body {
+    padding: 0%;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 2px solid black;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.logoimage {
+    width: 40px;
+    height: auto;
+    margin-left: 80px;
+}
+
+.home {
+    margin-left: 280px;
+}
+
+.category,
+.product,
+.services,
+.dealers,
+.mnu {
+    margin-left: 50px;
+}
+
+.account {
+    margin-left: 200px;
+}
+
+.logout {
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.home :hover,
+.product :hover,
+.category :hover,
+.services :hover,
+.dealers :hover,
+.mnu :hover,
+.account :hover,
+.logout :hover {
+    color: black;
+    opacity: 0.6;
+    text-decoration: underline;
+}
+
+.dropbtn {
+    background-color: white;
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 10rem;
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+
+.dropdown-content a {
+    color: black;
+    padding: 0.6rem;
+    font-size: medium;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: whitesmoke
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1;
+}
+
+.dropdown:hover .dropbtn {
+
+    opacity: 1;
+
+}
+
+.enquire_link{
+    color: white;
+    text-decoration: none;
+}
+#category_text {
+    margin-top: 50px;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    margin-left: 670px;
+}
+
+#product_text,
+#services_text {
+    margin-top: 90px;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    margin-left: 680px;
+}
+
+#gallery_text {
+    margin-top: 100px;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    margin-left: 680px;
+}
+
+#video_text {
+    margin-top: 90px;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    margin-left: 690px;
+}
+
+#about_text {
+    margin-top: 90px;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    margin-left: 690px;
+}
+#contactus_text{
+    margin-top: 90px;
+    font-size: 2.2rem;
+    margin-bottom: 60px;
+    margin-left: 670px;
+}
+.main4 {
+    margin-left: 110px;
+    width: 1300px;
+    height: 500px;
+
+}
+
+.main4 ul {
+    display: flex;
+}
+
+.main4 ul li {
+    list-style: none;
+}
+
+.main41 {
+    width: 300px;
+    height: 400px;
+    background-image: url(/images/nitrogen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.main42 {
+    width: 300px;
+    height: 400px;
+    background-image: url(/images/balancing.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 32px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.main43 {
+    width: 300px;
+    height: 400px;
+    background-image: url(/images/alignment.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 32px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.main44 {
+    width: 300px;
+    height: 400px;
+    background-image: url(/images/changer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 32px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.h2_text1 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.h2_text2 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 32px;
+}
+
+.para_text1 {
+    text-align: center;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.para_text2 {
+    text-align: center;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-left: 32px;
+}
+
+.services_submit {
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgb(29, 168, 29);
+    color: white;
+    border-radius: 10px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.services_submit:hover {
+    opacity: 1;
+}
+
+.services_submit1 {
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgb(29, 168, 29);
+    color: white;
+    border-radius: 10px;
+    opacity: 0.8;
+    cursor: pointer;
+    margin-left: 32px;
+}
+
+.services_submit1:hover {
+    opacity: 1;
+}
+
+.main5 {
+    margin-left: 110px;
+    width: 1300px;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+.main5 ul {
+    display: flex;
+}
+
+.main5 ul li {
+    list-style: none;
+}
+
+.main51 {
+    background-image: url(/images/gallery1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.main52 {
+    background-image: url(/images/gallery2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 33px;
+}
+
+.main53 {
+    background-image: url(/images/galeery3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 33px;
+}
+
+.main54 {
+    background-image: url(/images/gallery4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 33px;
+}
+
+.main55 {
+    background-image: url(/images/gallery5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.main56 {
+    background-image: url(/images/gallery6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 33px;
+}
+
+.main57 {
+    background-image: url(/images/gallery7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 33px;
+}
+
+.main58 {
+    background-image: url(/images/adventure\ bike.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 33px;
+}
+
+.main6 {
+    margin-left: 110px;
+    width: 1300px;
+    height: 770px;
+    margin-bottom: 50px;
+
+}
+
+.main6 ul {
+    display: flex;
+}
+
+.main6 ul li {
+    list-style: none;
+}
+
+.main62 {
+    margin-left: 100px;
+}
+
+.main63 {
+    margin-top: 60px;
+}
+
+.main64 {
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.main7 {
+    margin-left: 110px;
+    width: 1300px;
+    height: 500px;
+    margin-bottom: 50px;
+
+}
+
+.main7 ul {
+    display: flex;
+}
+
+.main7 ul li {
+    list-style: none;
+}
+
+.main71 {
+    width: 400px;
+    height: 500px;
+    background-image: url(/images/vector1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main72 {
+    width: 400px;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+.main73 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/mechanical.png);
+    width: 400px;
+    height: 500px;
+    margin-left: 30px;
+}
+.main8{
+    width: 1300px;
+    height: 500px;
+    margin-left: 110px;
+    margin-bottom: 50px;
+}
+.main8 ul{
+    display: flex;
+}
+.main8 ul li{
+    list-style: none;
+}
+.contactus_content{
+    margin-left: 100px;
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+}
+.main9{
+    width: 1300px;
+    height: 200px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+.submit_name{
+    font-size: x-large;
+}
+.submit_name input{
+    border-radius: 5px;
+    background-color: rgb(202, 199, 199);
+    width: 220px;
+    padding: 5px;
+}
+.submit_mailid{
+    margin-left: 100px;
+    font-size: x-large;
+}
+.submit_mailid input{
+    border-radius: 5px;
+    background-color: rgb(202, 199, 199);
+    width: 220px;
+    padding: 5px;
+}
+.submit_phone{
+    margin-left: 100px;
+    font-size: x-large;
+}
+.submit_phone input{
+    border-radius: 5px;
+    background-color: rgb(202, 199, 199);
+    width: 220px;
+    padding: 5px;
+}
+.submit_message{
+    font-size: x-large;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+.submit_message input{
+    border-radius: 5px;
+    background-color: rgb(202, 199, 199);
+    width: 800px;
+    height: 50px;
+    padding: 5px;
+}
+.submit_button{
+    border-radius: 10px;
+    padding: 10px;
+    font-size: x-large;
+    margin-left: 550px;
+    margin-top: 30px;
+    width: 150px;
+}
+
+.main1 {
+
+    margin-left: 70px;
+    width: 1400px;
+    height: 600px;
+    
+}
+
+.image1,
+.image3 {
+    background-image: url(/images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    width: 1400px;
+    height: 600px;
+}
+
+.image2 {
+    background-image: url(/images/bg4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    width: 1400px;
+    height: 600px;
+}
+
+.main2 {
+    margin-left: 110px;
+    width: 1300px;
+    height: 260px;
+}
+
+.main3 {
+    margin-left: 110px;
+    width: 1300px;
+    height: 400px;
+}
+
+.image11 {
+    background-image: url(/images/standard_bike.png);
+    border: 1px solid whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    width: 400px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.image22 {
+    background-image: url(/images/sports\ bike.png);
+    border: 1px solid whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    width: 400px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.image33 {
+    background-image: url(/images/dirt\ bike.png);
+    border: 1px solid whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    width: 400px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.image44 {
+    background-image: url(/images/cafe\ racer\ bike.png);
+    border: 1px solid whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    width: 400px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.image55 {
+    background-image: url(/images/cruiser\ bike\ .png);
+    border: 1px solid whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    width: 400px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 20px;
+
+}
+
+.image66 {
+    background-image: url(/images/sports\ bike.png);
+    border: 1px solid whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    width: 400px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.image77 {
+    background-image: url(/images/adventure\ bike.png);
+    border: 1px solid whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    width: 400px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.image88 {
+    background-image: url(/images/cafe\ racer\ bike.png);
+    border: 1px solid whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    width: 400px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.image111 {
+    background-image: url(/images/jk\ tyres.png);
+    border: 1px solid whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.image222 {
+    background-image: url(/images/apollo\ tyre.png);
+    border: 1px solid whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.image333 {
+    background-image: url(/images/cent\ tyres.png);
+    border: 1px solid whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.image444 {
+    background-image: url(/images/michellin.png);
+    border: 1px solid whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.image555 {
+    background-image: url(/images/pirelli\ tyres.png);
+    border: 1px solid whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    border-radius: 20px;
+
+}
+
+.image666 {
+    background-image: url(/images/ralco\ tyres.png);
+    border: 1px solid whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.image777 {
+    background-image: url(/images/tvs\ tyres.png);
+    border: 1px solid whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.bike_name {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+
+    text-align: center;
+}
+
+.tyre_name {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.image111:hover .tyre_name {
+    opacity: 1;
+}
+
+.image222:hover .tyre_name {
+    opacity: 1;
+}
+
+.image333:hover .tyre_name {
+    opacity: 1;
+}
+
+.image444:hover .tyre_name {
+    opacity: 1;
+}
+
+.image555:hover .tyre_name {
+    opacity: 1;
+}
+
+.image666:hover .tyre_name {
+    opacity: 1;
+}
+
+.image777:hover .tyre_name {
+    opacity: 1;
+}
+
+.image11:hover .bike_name {
+    opacity: 1;
+
+}
+
+.image22:hover .bike_name {
+    opacity: 1;
+}
+
+.image33:hover .bike_name {
+    opacity: 1;
+}
+
+.image44:hover .bike_name {
+    opacity: 1;
+}
+
+.image55:hover .bike_name {
+    opacity: 1;
+}
+
+.image66:hover .bike_name {
+    opacity: 1;
+}
+
+.image77:hover .bike_name {
+    opacity: 1;
+}
+
+.image88:hover .bike_name {
+    opacity: 1;
+}
+
+
+
+
+.follow{
+
+background-color: rgb(197, 68, 21);
+width: 1400px;
+height: 30px;
+margin-left: 50px;
+}
+.follow ul{
+display: flex;
+}
+.follow ul li{
+list-style: none;
+margin-top: 5px;
+margin-bottom: 2px;
+}
+.follow ul li a{
+text-decoration: none;
+color: white;
+}
+.mail{
+margin-left: 30px;
+}
+.fb , .in , .insta , .twitter{
+margin-left: 40px;
+}
+.loc{
+margin-left: 500px;
+}
+.acount{
+margin-left: 40px;
+}
+.login{
+margin-left: 10px;
+margin-right: 5px;
+}
+.signup{
+margin-left: 5px;
+
+}
+/* @media only screen and (max-width: 1310px) and (min-width: 1243px){
+    .navbar ul li a{
+        font-size: 3.3vh;
+    }
+    .navbar ul li button{
+        font-size: 3.3vh;
+    }
+    #menu{
+        font-size: 3.3vh;
+    }    
+    #person{
+        font-size: 3.3vh;
+       
+    }
+    .logo_image{
+        width: 35px;
+    }
+    #logo_container{
+        margin-left: 50px;
+    }
+    #home{
+        margin-left: 180px;
+       
+    }
+    #category , #products , #services , #dealers , #menu_container {
+        margin-left: 56px;
+      
+    }
+    #account{
+        margin-left: 120px;
+    }
+}
+
+@media only screen and (max-width: 1243px) and (min-width: 1089px){
+    .navbar ul li a{
+        font-size: 3.2vh;
+    }
+    .navbar ul li button{
+        font-size: 3.2vh;
+    }
+    #menu{
+        font-size: 3.2vh;
+    }    
+    #person{
+        font-size: 3.2vh;
+       
+    }
+    .logo_image{
+        width: 35px;
+    }
+    #logo_container{
+        margin-left: 58px;
+    }
+    #home{
+        margin-left: 200px;
+       
+    }
+    #category , #products , #services , #dealers , #menu_container {
+        margin-left: 40px;
+      
+    }
+    #account{
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (max-width: 1089px) and (min-width: 990px){
+    .navbar ul li a{
+        font-size: 3vh;
+    }
+    .navbar ul li button{
+        font-size: 3vh;
+    }
+    #menu{
+        font-size: 3vh;
+    }    
+    #person{
+        font-size: 3vh;
+       
+    }
+    .logo_image{
+        width: 30px;
+    }
+    #logo_container{
+        margin-left: 35px;
+    }
+    #home{
+        margin-left: 120px;
+       
+    }
+    #category , #products , #services , #dealers , #menu_container {
+        margin-left: 35px;
+      
+    }
+    #account{
+        margin-left: 80px;
+    }
+} */

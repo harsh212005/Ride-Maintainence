@@ -1,0 +1,268 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar{
+    border-bottom: 1px solid black;
+    margin-top: 1px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    font-size: 4vh;
+}
+.navbar ul li button{
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    font-size: 4vh;
+    border: none;
+    background-color: white;
+}
+.logo_image{
+    width: 50px;
+}
+#logo_container{
+    margin-left: 50px;
+}
+#home{
+    margin-left: 200px;
+    margin-top: 4px;
+}
+#menu{
+    font-size: 4vh;
+    margin-top: 2px;
+}
+#person{
+    font-size: 4vh;
+    margin-top: 4px;
+}
+#category , #products , #services , #dealers , #menu_container {
+    margin-left: 50px;
+    margin-top: 4px;
+}
+#account{
+    margin-left: 180px;
+}
+
+.navbar ul li:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+#menu:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+#person:hover{
+    text-decoration: underline;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+#menu_list{
+    border: 1px solid black;
+    width: 150px;
+    
+    margin-left: 1150px;
+    position: absolute;
+   
+}
+#menu_list ul li{
+    list-style: none;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    background-color: gray;
+}
+#menu_list ul li a{
+    font-size: 3vh;
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    text-align: center;
+}
+
+#gallery:hover{
+    opacity: 1;
+    background-color: rgb(199, 199, 199);
+}
+#videos:hover{
+    opacity: 1;
+    background-color: rgb(199, 199, 199);
+}
+#aboutus:hover{
+    opacity: 1;
+    background-color: rgb(199, 199, 199);
+}
+#contactus:hover{
+    opacity: 1;
+    background-color: rgb(199, 199, 199);
+}
+
+#menu_list{
+    display: none;
+}
+#cross{
+    padding: 0%;
+    font-size: 15px;
+}
+.button2{
+    margin-left: 120px;
+}
+
+
+
+#account_list{
+    border: 1px solid black;
+    width: 120px;
+    
+    margin-left: 1380px;
+    position: absolute;
+   
+}
+#account_list ul li{
+    list-style: none;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    background-color: gray;
+}
+#account_list ul li a{
+    font-size: 3vh;
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    text-align: center;
+}
+.button4{
+    margin-left: 90px;
+}
+#signin:hover{
+    opacity: 1;
+    background-color: rgb(199, 199, 199);
+}
+#login:hover{
+    opacity: 1;
+    background-color: rgb(199, 199, 199);
+}
+#logout:hover{
+    opacity: 1;
+    background-color: rgb(199, 199, 199);
+}
+#addcart:hover{
+    opacity: 1;
+    background-color: rgb(199, 199, 199);
+}
+#account_list{
+    display: none;
+}
+
+
+@media only screen and (max-width: 1310px) and (min-width: 1243px){
+    .navbar ul li a{
+        font-size: 3.3vh;
+    }
+    .navbar ul li button{
+        font-size: 3.3vh;
+    }
+    #menu{
+        font-size: 3.3vh;
+    }    
+    #person{
+        font-size: 3.3vh;
+       
+    }
+    .logo_image{
+        width: 35px;
+    }
+    #logo_container{
+        margin-left: 50px;
+    }
+    #home{
+        margin-left: 180px;
+       
+    }
+    #category , #products , #services , #dealers , #menu_container {
+        margin-left: 56px;
+      
+    }
+    #account{
+        margin-left: 120px;
+    }
+}
+
+@media only screen and (max-width: 1243px) and (min-width: 1089px){
+    .navbar ul li a{
+        font-size: 3.2vh;
+    }
+    .navbar ul li button{
+        font-size: 3.2vh;
+    }
+    #menu{
+        font-size: 3.2vh;
+    }    
+    #person{
+        font-size: 3.2vh;
+       
+    }
+    .logo_image{
+        width: 35px;
+    }
+    #logo_container{
+        margin-left: 58px;
+    }
+    #home{
+        margin-left: 200px;
+       
+    }
+    #category , #products , #services , #dealers , #menu_container {
+        margin-left: 40px;
+      
+    }
+    #account{
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (max-width: 1089px) and (min-width: 990px){
+    .navbar ul li a{
+        font-size: 3vh;
+    }
+    .navbar ul li button{
+        font-size: 3vh;
+    }
+    #menu{
+        font-size: 3vh;
+    }    
+    #person{
+        font-size: 3vh;
+       
+    }
+    .logo_image{
+        width: 30px;
+    }
+    #logo_container{
+        margin-left: 35px;
+    }
+    #home{
+        margin-left: 120px;
+       
+    }
+    #category , #products , #services , #dealers , #menu_container {
+        margin-left: 35px;
+      
+    }
+    #account{
+        margin-left: 80px;
+    }
+}
